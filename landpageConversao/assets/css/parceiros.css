@@ -1,0 +1,100 @@
+#parceiros{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: inherit;
+    justify-content: center;
+    align-content: center;
+    padding: 30px 30px ;
+    background-color: var(--color-roxo);
+    margin-left: -20px;
+}
+.parceiros__titulo{
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: Ubuntu, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1.25rem;
+}
+
+.parceiros__container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.parceiros__container .parceiros__card{
+    position: relative;
+    max-width: 210px;
+    height: 215px;
+    background: #fff;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    border-radius: 30% 30%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 200px black;
+    transition: 0.3s ease-in-out;
+}
+
+.parceiros__container .parceiros__card:hover{
+  height: 350px;
+  position: unset;  
+}
+
+.parceiros__container .parceiros__card .parceiros__img{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    top: -10px;
+    left: 15px;
+    z-index: 1;
+    box-shadow: 0 5px 20px black;
+}
+
+.parceiros__container .parceiros__card .parceiros__img img{
+    max-width: 100%;
+    border-radius: 50%; 
+}
+
+.parceiros__container .parceiros__card .parceiros__conteudo{
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align:center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+.parceiros__container .parceiros__card .parceiros__conteudo h2{
+    font-family: Ubuntu, sans-serif;
+    font-size: 22px;
+    font-weight: bolder;
+    text-transform: uppercase;
+
+
+}
+.parceiros__container .parceiros__card .parceiros__conteudo p{
+    margin-top: 30px;
+    font-family: Source Sans Pro, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.parceiros__container .parceiros__card:hover .parceiros__conteudo{
+    visibility: visible;
+    opacity: 2;
+    margin-top: 0px;
+    transition-delay: 0.3s;
+}
+
+
+
+

@@ -1,0 +1,17 @@
+html{
+    scroll-behavior: smooth;
+}
+
+:root{
+    --color-roxo:#55298b;
+    --color-amarelo:#ffbe00;
+    --color-black:rgb(47, 47, 47);
+    --color-sombra:rgb(49, 49, 49);
+    --color-branco:aliceblue;
+
+}
+
+strong{
+    font-weight: bolder;
+    font-size: large;
+}

@@ -1,0 +1,87 @@
+.contudoInicial{
+    margin-top: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 51px 10px;
+    align-items: center;
+}
+.chamada__titulo{
+    font-family: Ubuntu, sans-serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    padding: 10px 30px;  
+}
+
+.chamada__texto{ 
+    font-family: Source Sans Pro, sans-serif;
+    font-size: 1.2rem;
+    text-align: inherit;
+    padding: 10px 30px;
+}
+.chamada__conjunto{
+    padding: 10px 30px;
+    margin-right: 45%;
+}
+
+.chamada__lista{
+    padding: 10px 30px;
+    line-height: 1.5;
+    display: list-item;
+    text-align: left;
+}
+.chamada__lista::before{
+    content:"⚝ " ;
+}
+.chamada__botao{
+    font-family: "Ubuntu",sans-serif;
+    font-weight: 700;
+    border-radius: 100px;
+    text-align: center;
+    transition: background-color .2s ease,box-shadow .2s ease,color .2s ease;
+    text-transform: lowercase;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: var(--color-amarelo);
+    width: 260px;
+    height: 48px;
+    line-height: 48px;
+    box-shadow: 5px 7px 20px 0px var(--color-roxo, 75%);
+    margin-top: 20px;
+    transition: 300ms;
+    opacity: 100%;
+}
+.chamada__botao:hover{
+    outline: 0;
+    opacity: 70%;
+    background-color: green;
+    transition: 2s;
+    transform: scale(1.2);
+}
+.banner1{
+    margin-right: 0;
+    width: 50%;
+    top: 0;
+    right: 0;
+}
+
+/* mobile */
+@media(max-width: 768px){
+    .conteudoInicial{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .banner1{
+        width: 100%;
+    }
+
+   .container{
+        text-align: center;
+   } 
+   .chamada__lista{
+    width: max-content;
+    margin-left: 100px;
+   }
+}
