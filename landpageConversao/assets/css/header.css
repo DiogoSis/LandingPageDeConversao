@@ -44,6 +44,28 @@
    position: relative;
 }
 
+
+.wave {
+    position: relative;
+    bottom: 20px;
+    left: -60px;
+    width: 100%;
+    line-height: 8;
+    transform: translate(10px, 10px);
+    margin-bottom: -164px;;
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(183% + 1.3px);
+    height: 249px;
+}
+
+.wave .shape-fill {
+    fill: var(--color-roxo)
+}
+
 /* mobile */
 @media(max-width: 768px){
     
