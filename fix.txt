@@ -1,0 +1,34 @@
+Fala, Diogo!
+
+Vou dar algumas sugestões de melhoria para você, mas lembrando que isso não impacta no seu trabalho, é apenas para que você se desenvolva e aprenda.
+
+A página ficou excelente, com bons tons de cores, e você seguiu um pouco das cores do nosso cartão de descontos.
+
+1 - Os depoimentos ficaram com uma responsividade muito grande e os textos estão explodindo conforme o efeito da animação vai se expandindo.
+  Sugestão: Diminuir o tempo de transição ou ate mesmo tirar a animação, geralmente em termos de design não faz sentido esse destaque nos depoimentos. Caso queira
+  utilizar mesmo assim, coloca a transição na div apenas para dar zoom out ( se aproximar da tela do cliente), sem dar zoom in no texto.
+  
+ 2 - Os botões de CTA (Call-to-action) ficaram bons, mas deixaria o hover com transição mais rápida.
+ 
+ 3 - Quando você fala um pouco mais dos beneficios, sempre é bom se lembrar de que os usuarios podem ficar cansados de ler textos grandes. Tente sempre ser objetivo.
+ Para um bom front-end é sempre importante saber também de experiência do cliente, tente entrar na cabeça do consumidor.
+ 
+ 4 - Mesmo que o desafio não tenha pedido, para um bom modelo de desenvolvimento é sempre bom deixar os códigos no modelo padrão (mais usados pelos devs)
+ de pastas e desenvolvimento.
+ 
+    Uma abordagem comum é a de separar o código-fonte em pastas que representem as principais funcionalidades e módulos do sistema. Por exemplo:
+
+    src/: pasta principal que contém todo o código-fonte do projeto.
+    src/components/: pasta que contém os componentes do sistema, como botões, formulários, tabelas, etc.
+    src/pages/: pasta que contém as páginas do sistema, que representam as principais telas e funcionalidades do software.
+    src/services/: pasta que contém as classes e funções responsáveis por interagir com APIs, bancos de dados e outros serviços externos.
+    src/utils/: pasta que contém classes e funções auxiliares, como validadores, parsers, formatadores, etc.
+    Outros padrões que podem ser utilizados incluem a separação por camadas, como em uma arquitetura MVC (Model-View-Controller), ou a separação 
+    por tipo de arquivo, como colocar os arquivos CSS em uma pasta separada dos arquivos JavaScript.
+
+    Independentemente do padrão utilizado, é importante que a estrutura de pastas seja coerente e fácil de navegar, para que o código-fonte possa ser 
+    mantido e evoluído com facilidade.
+ 
+ 5 - Sempre é importante comentar os trechos de código para você mesmo se guiar e principalmente outros pessoas que forem buscar seu código fonte.
+ 
+ Ademais, todos outros aspectos principais ficaram de acordo com o solicitado.
